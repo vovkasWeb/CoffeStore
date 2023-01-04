@@ -23,11 +23,6 @@ class BestCoffee extends Component{
 				<h5 className="best__title-item">Solimo Coffee Beans 2 kg</h5>
 				<span className="best__price-item">10.73$</span>
 			 </div>
-			 <div className="best__item-coffee">
-				<img className="best__img-item" src={img} alt="img product" />
-				<h5 className="best__title-item">Solimo Coffee Beans 2 kg</h5>
-				<span className="best__price-item">10.73$</span>
-			 </div>
         </div>
 			</div>
 		 );

@@ -1,0 +1,27 @@
+/** @format */
+
+.logo {
+  margin-top: 21px;
+  display: inline-block;
+  position: relative;
+}
+.logo::after {
+  display: block;
+  width: 60px;
+  height: 1px;
+  right: -85px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+  top: 50%;
+}
+.logo::before {
+  display: block;
+  width: 60px;
+  height: 1px;
+  left: -85px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+  top: 50%;
+}

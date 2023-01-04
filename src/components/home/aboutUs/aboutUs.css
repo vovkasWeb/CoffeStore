@@ -1,1 +1,24 @@
-best-block
+/** @format */
+
+.about__block {
+  text-align: center;
+  padding: 80px 0 100px 0;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.about-texts{
+	margin-top: 40px;
+}
+.about-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.about-text + .about-text{
+	margin-top: 20px;
+}
