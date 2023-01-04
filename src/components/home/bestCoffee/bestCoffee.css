@@ -1,0 +1,42 @@
+/** @format */
+
+.best-block {
+  padding: 80px 0 110px 0;
+}
+.best-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+.best__list-coffee {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.best__item-coffee {
+  width: 220px;
+  height: 240px;
+  background-color: #ffffffa6;
+  margin: 7px;
+}
+.best__img-item {
+  margin: 22px auto 0 auto;
+}
+.best__title-item {
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.best__price-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  display: block;
+  margin:10px 20px 0 ;
+}
