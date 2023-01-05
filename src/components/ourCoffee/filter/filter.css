@@ -1,0 +1,45 @@
+/** @format */
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+}
+.filter-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 20px;
+}
+.fiter-search__input {
+  height: 30px;
+  width: 180px;
+  left: 2150px;
+  top: 617px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+}
+.filter-buttons__button{
+width: 75px;
+height: 30px;
+background: #FFFFFF;
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 4px 0px 0px 4px;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+border: none;
+cursor: pointer;
+}
+.filter-buttons__button:hover{
+	color: blue;
+}
+.filter-buttons__button + .filter-buttons__button{
+	margin-left: 5px;
+}

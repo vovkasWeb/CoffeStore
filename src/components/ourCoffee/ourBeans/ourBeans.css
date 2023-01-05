@@ -1,0 +1,37 @@
+/** @format */
+
+.ourBeans__row {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 70px auto 60px auto;
+  position: relative;
+  padding-bottom: 60px;
+}
+.ourBeans__row::after{
+	display: block;
+	width: 240px;
+	height: 1px;
+	content: "";
+	position: absolute;
+	background-color: #000;
+	bottom: 0px;
+	left:33%;
+}
+.ourBeans__item-img {
+  flex: 0 1 40%;
+  width: 100%;
+}
+.ourBeans__item-body {
+  flex: 0 1 50%;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+.ourBeans__text {
+  font-family: Merienda;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 25px;
+}
