@@ -5,8 +5,9 @@ import Footer from "../logo/footer/footer";
 import Filter from "./filter/filter";
 import Header from "./header/header";
 import OurBeans from "./ourBeans/ourBeans";
+import Products from '../products/products'
 import "./ourCoffee.css";
-import Produts from "./products/products";
+
 class OurCoffee extends Component {
   render() {
     return (
@@ -24,7 +25,7 @@ class OurCoffee extends Component {
         <section className="produts">
           <div className="container-produts">
 				<Filter/>
-				<Produts/>
+				<Products/>
 			 </div>
         </section>
         <Footer />

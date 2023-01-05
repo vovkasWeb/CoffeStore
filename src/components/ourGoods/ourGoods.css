@@ -1,0 +1,13 @@
+.ourGoods-header{
+	background-image: url("img/header-bd.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	height: 100%;
+ }
+ .contsiner-ourGoods{
+		max-width: 700px;
+		padding: 0 15px;
+		margin: 0 auto;
+	 
+ }
