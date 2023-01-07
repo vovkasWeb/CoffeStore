@@ -10,6 +10,7 @@ import "./ourCoffee.css";
 
 class OurCoffee extends Component {
   render() {
+	const {data} = this.props;
     return (
       <>
         <header className="header-out">
@@ -24,8 +25,8 @@ class OurCoffee extends Component {
         </section>
         <section className="produts">
           <div className="container-produts">
-				<Filter/>
-				<Products/>
+				<Filter />
+				<Products data={data} />
 			 </div>
         </section>
         <Footer />

@@ -7,7 +7,12 @@ import "./ourGoods.css";
 import OurGood from "./ourGood/ourGood";
 import ProductBeans from "../productsBeans/productBeans";
 class OurGoods extends Component {
+	constructor(props) {
+		super(props);
+	}
   render() {
+	const {data} = this.props;
+
     return (
       <>
         <header className="ourGoods-header">
@@ -22,7 +27,7 @@ class OurGoods extends Component {
         </section>
 		  <section className="produts">
 		  <div className="container-produts">
-			<ProductBeans/>
+			<ProductBeans data={data}/>
 		  </div>
         </section>
         <Footer />
