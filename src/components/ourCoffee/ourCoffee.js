@@ -10,7 +10,7 @@ import "./ourCoffee.css";
 
 class OurCoffee extends Component {
   render() {
-	const {data} = this.props;
+	const {data,onUpdateSeacrch,filter,onFilterSelect} = this.props;
     return (
       <>
         <header className="header-out">
@@ -25,7 +25,7 @@ class OurCoffee extends Component {
         </section>
         <section className="produts">
           <div className="container-produts">
-				<Filter />
+				<Filter onUpdateSeacrch={onUpdateSeacrch} filter={filter} onFilterSelect={onFilterSelect} />
 				<Products data={data} />
 			 </div>
         </section>
